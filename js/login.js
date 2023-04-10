@@ -1,3 +1,7 @@
+var check = localStorage.getItem('data');
+if(check != null){
+   window.location.href = "profile.php";
+}
 $(document).ready(function(){
     $("#login").click(function(){
         var username = $("input[name='name']").val();
