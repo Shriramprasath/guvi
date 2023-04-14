@@ -32,7 +32,7 @@ $(document).ready(function() {
 });
 
 const logout = () =>{
-    localStorage.removeItem('datas');
+    localStorage.removeItem('data');
     window.location.replace('http://localhost:8080/guvi/login.html');
 }
 
